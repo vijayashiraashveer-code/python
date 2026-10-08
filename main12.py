@@ -29,3 +29,12 @@ for _1 in range(num_of_enemies):
     enymyx.append(random.randint(0, SCREEN_WIDTH - 64 ))
     enemyy.append(random.randint(ENEMY_START_Y_MIN,
     ENEMY_START_Y_MAX))
+    enemyY_change.append(ENEMY_SPEED_X)
+    enemyX_change.append(ENEMY_SPEED_Y)
+
+    bulletIMG = pygame.image.load('bullet.png')
+    bulletx = 0
+    bulletY_change = speedY
+scorevalue= 0 
+font =pygame.font.Font('freesansbold.ttf',64)
+ def showscore(x,y)
